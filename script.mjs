@@ -6,7 +6,7 @@ async function main() {
   const company = await prisma.company.create({
     data: {
       name: "Isco Software",
-      email: "info@iscosoftware.cmmom",
+      email: "info@iscosoftware.comaaa",
       website: "https://www.iscosoftware.com",
     },
   });
