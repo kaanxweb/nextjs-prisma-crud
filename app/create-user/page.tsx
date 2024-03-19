@@ -1,6 +1,3 @@
-
-
-
 const CreateUserPage: React.FC = () => {
       return (
             <div className="max-w-7xl mx-auto my-56 sm:px-6 lg:px-8 space-y-8">
