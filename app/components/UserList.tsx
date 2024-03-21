@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const UserList: React.FC = () => {
       const users = [
             {
@@ -87,13 +89,12 @@ const UserList: React.FC = () => {
                                                       {user.company}
                                                 </td>
                                                 <td className="space-x-2 px-6 py-4">
-                                                      <button type="button" className="btn-primary">
+                                                      <Link href="/user/edit" type="button" className="btn-primary">
                                                             Edit
-                                                      </button>
-
-                                                      <button type="button" className="btn-secondary">
+                                                      </Link>
+                                                      <Link href="/user/delete" type="button" className="btn-secondary">
                                                             Delete
-                                                      </button>
+                                                      </Link>
                                                 </td>
                                           </tr>
                                     ))
